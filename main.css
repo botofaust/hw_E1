@@ -1,0 +1,56 @@
+.header {
+    float: top;
+    border: solid 2px;
+    border-color: white;
+    width: 640px;
+    background-color: #0d6efd;
+}
+
+.navigation{
+    display: table;
+}
+
+.nav-item {
+    padding: 0 0.5rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nav-logo {
+    font-size: 30px;
+    color: red;
+    font-family: fantasy;
+    border: solid 1px;
+    border-color: black;
+    padding: 0 3px 0 3px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: silver;
+}
+
+.content {
+    width: 640px;
+}
+
+.image-content {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.image-float-right {
+    float: right;
+    margin: 3px 0 5px 10px;
+}
+.image-float-left {
+    float: left;
+    margin: 3px 10px 5px 0;
+}
